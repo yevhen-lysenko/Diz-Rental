@@ -1,0 +1,56 @@
+.main__steps {
+    margin-bottom: 120px;
+}
+.container {
+}
+.steps__inner {
+}
+.steps__heading {
+    margin: 0 auto;
+    font-size: 48px;
+    color: black;
+    max-width: 711px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.steps__cards {
+    justify-content: space-between;
+    display: flex;
+}
+.steps__card{
+    border-radius: 22px;
+    max-width: 424px;
+    background-color: rgb(255, 255, 255);
+    padding: 66px 50px 50PX;
+    display: flex;
+}
+.steps__card-img {
+    margin-right: 40px;
+}
+.step__text {
+}
+.step__title {
+    font-size: 19px;
+    color: black;
+}
+.step__subtitle {
+    margin-top: 22px;
+    line-height: 25px;
+    color:rgb(0, 0, 0, 0.4);
+
+    span{
+        color:rgb(0, 0, 0, 1);
+    }
+}
+
+@media (max-width: 500px){
+    .steps__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps__card{
+        margin-bottom: 18px;
+        margin-left: 14px;
+    }
+}

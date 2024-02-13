@@ -1,0 +1,151 @@
+.main__rent-now .container__main{
+    margin-bottom: 120px;
+    padding: 170px 260px;
+    background: url("/img/bg/бг-mersedes.jpeg") 100% 100% no-repeat;
+    background-size: cover;
+    border-radius:  36px ;
+}
+.container__main {
+}
+.container {
+}
+.rent__now-inner {
+    
+}
+.rent__now-heading {
+    font-size: 48px;
+    
+}
+.rent__now-content {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;
+}
+.rent__now-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    max-width: 760px;
+}
+.rent__now-title {
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+.rent__now-subtitle {
+    margin-top: 36px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.rent__now-form {
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.rent__input {
+    margin-bottom: 14px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 28px 30px;
+    input{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+.rent__form-button {
+    
+    width: 100%;
+    button{
+        background-color: rgba(255, 255, 255, 0);
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        padding: 28px 0;
+        width: 100%;
+        transition: all 0.4s;
+
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.7);
+            color: #444444;
+        }
+
+    }
+}
+.rent__form-checkbox {
+    margin-top: 40px;
+    display: flex;
+}
+.rent__form-check {
+    padding: 2px 5px 2px 5px;
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    background-color: rgb(238, 238, 238, 0.4);
+    svg{
+        
+    }
+}
+.rent__check-text {
+    
+    p{
+        
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    a{
+        line-height: 0;
+        font-size: 11px;
+        color: #fff;
+    }
+}
+
+
+.rent__form-check--agree{
+    background-color: rgb(238, 238, 238, 1);
+}
+
+
+@media (max-width: 500px) {
+    .rent__now-content {
+        justify-content: space-between;
+        display: flex;
+        
+        flex-direction: column-reverse;
+        margin-top: 70px;
+    }
+
+    .main__rent-now .container__main{
+        margin-bottom: 40px;
+        padding: 40px 20px;
+        background: url("/img/bg/бг-mersedes.jpeg") 50% 100% no-repeat;
+        background-size: cover;
+        border-radius:  0px ;
+    }
+
+    .rent__form-checkbox{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 40px;
+    }
+
+    .rent__form-check {
+        padding: 4px 7px 4px 7px;
+        margin-right: 14px;
+        width: 24px;
+        height: 24px;
+        border-radius: 40%;
+        background-color: rgb(238, 238, 238, 0.4);
+        svg{
+            
+        }
+    }
+
+    .rent__check-text{
+        margin-right: 30px; 
+    }
+    
+}

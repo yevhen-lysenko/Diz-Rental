@@ -1,0 +1,37 @@
+.brand__main {
+    margin-bottom: 120px;
+}
+.brand__main .container__main {
+    background: #fff;
+    border-radius: 0 0 36px 36px;
+}
+.container {
+}
+.brand__inner {
+}
+.brand__items {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 500px){
+    .brand__items{
+        
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .brand__item {
+        margin-right: 25px;
+        flex: 0 0 auto;
+    }
+
+    .brand__main .container__main {
+        background: #fff;
+        border-radius: 0;
+    }
+}
